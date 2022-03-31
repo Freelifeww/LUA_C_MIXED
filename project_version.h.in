@@ -1,0 +1,3 @@
+
+#cmakedefine LUA_USE_LINUX   @LUA_USE_LINUX@
+#cmakedefine LUA_COMPAT_5_3  @LUA_COMPAT_5_3@
