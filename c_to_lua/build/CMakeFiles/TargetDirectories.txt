@@ -1,0 +1,3 @@
+/home/share/samba/freelife_study/LUA_C_MIXED/c_to_lua/build/CMakeFiles/edit_cache.dir
+/home/share/samba/freelife_study/LUA_C_MIXED/c_to_lua/build/CMakeFiles/rebuild_cache.dir
+/home/share/samba/freelife_study/LUA_C_MIXED/c_to_lua/build/CMakeFiles/LUA_C.dir

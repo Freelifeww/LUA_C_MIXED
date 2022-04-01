@@ -9,7 +9,7 @@ SET(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}gcc)
 SET(CMAKE_CXX_COMPILER ${TOOLCHAIN_PREFIX}g++)
 SET(CMAKE_STRIP ${TOOLCHAIN_PREFIX}strip)
 
-include_directories("${PROJECT_SOURCE_DIR}/lua-5.4.4/src")
+include_directories("${PROJECT_SOURCE_DIR}../lua-5.4.4/src")
 include_directories("${PROJECT_SOURCE_DIR}")
 
 message("PROJECT_SOURCE_DIR = ${PROJECT_SOURCE_DIR}")
@@ -24,8 +24,8 @@ aux_source_directory(. SRC)
 
 add_executable(LUA_C ${SRC})
 
-add_subdirectory(lua-5.4.4/src)
+#add_subdirectory(../lua-5.4.4/src)
 
-target_link_libraries(LUA_C lua -lm) #增加数学库链接
+target_link_libraries(LUA_C lua -ldl -lm)   #增加数学库链接
 
 configure_file("${PROJECT_SOURCE_DIR}/project_version.h.in" "${PROJECT_SOURCE_DIR}/project_version.h")

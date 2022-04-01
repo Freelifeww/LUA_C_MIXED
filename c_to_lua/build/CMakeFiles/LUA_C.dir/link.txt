@@ -1,0 +1,1 @@
+gcc     CMakeFiles/LUA_C.dir/main.c.o  -o LUA_C -llua -ldl -lm 
