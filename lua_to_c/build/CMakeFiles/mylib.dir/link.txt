@@ -1,0 +1,1 @@
+gcc  -fPIC   -shared -Wl,-soname,libmylib.so -o ../libmylib.so CMakeFiles/mylib.dir/funtion_test.c.o 

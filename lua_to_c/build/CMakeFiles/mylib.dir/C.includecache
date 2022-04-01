@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/share/samba/freelife_study/LUA_C_MIXED/lua_to_c/funtion_test.c
+stdio.h
+-
+lua.h
+-
+lualib.h
+-
+lauxlib.h
+-
+math.h
+-
+

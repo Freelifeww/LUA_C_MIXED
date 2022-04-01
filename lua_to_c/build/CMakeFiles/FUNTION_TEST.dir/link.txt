@@ -1,0 +1,1 @@
+gcc  -fPIC   -shared -Wl,-soname,libFUNTION_TEST.so -o ../libFUNTION_TEST.so CMakeFiles/FUNTION_TEST.dir/funtion_test.c.o 
